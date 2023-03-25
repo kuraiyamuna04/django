@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(78, 219, 219);
+}
+
+.container{
+    height: 100%;
+    width: 50%;
+    padding: 10%;
+    margin: auto;
+    background-color: rgb(39, 122, 237);
+    font-family: cursive ;
+    text-shadow: 0 0 5px #FF0000;
+    font-size: larger;
+    border-radius: 10%;
+    animation-name: example ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes example {
+    from {background-color: rgb(39, 122, 237);
+        border-radius: 10%;}
+    to {background-color: rgb(59, 213, 237);
+        border-radius: 50%;}
+  }
